@@ -1,0 +1,130 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 50px 0;
+}
+
+#demo .box {
+  border: 1px solid #120c5d;
+  background-color: #2fa9d2;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#demo .box .minibox {
+  background-color: #120c5d;
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: 3s;
+}
+#demo .box .minibox:hover {
+  width: 150px;
+  height: 150px;
+}
+
+#demo1 .box {
+  width: 200px;
+  height: 80px;
+  background-color: #e93c9b;
+  border: 5px solid #e93c9b;
+  display: flex;
+  justify-content: center;
+  transition: 1s;
+}
+#demo1 .box h2 {
+  margin: 10px 0 0;
+  color: white;
+}
+#demo1 .box:hover {
+  cursor: pointer;
+  border: 5px solid #ed47a2;
+  background-color: #2f0d0d;
+}
+@media screen and (max-width: 800px) {
+  #demo1 .box {
+    width: 150px;
+    height: 50px;
+    background-color: #4268ab;
+  }
+}
+@media screen and (max-width: 500px) {
+  #demo1 .box {
+    width: 50px;
+    height: 50px;
+    background-color: #162237;
+  }
+}
+
+#demo2 .box {
+  background-color: #bf5431;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: 3s;
+}
+#demo2 .box h1 {
+  color: white;
+  font-size: 30px;
+}
+#demo2 .box:hover {
+  border-radius: 10px;
+}
+@media screen and (max-width: 800px) {
+  #demo2 .box {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+#demo3 .bigbox {
+  position: relative;
+}
+#demo3 .bigbox .box {
+  width: 200px;
+  height: 200px;
+  background-color: #2578b8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#demo3 .bigbox .text5 {
+  position: absolute;
+  left: 200px;
+}
+
+#demo4 .bigbox {
+  position: relative;
+}
+#demo4 .bigbox .box {
+  width: 200px;
+  height: 200px;
+  background-color: #396031;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#demo4 .bigbox .text2 {
+  position: absolute;
+  left: 200px;
+}/*# sourceMappingURL=style.css.map */
