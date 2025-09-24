@@ -129,19 +129,26 @@ section {
   left: 200px;
 }
 
-#taskjs .box {
-  display: flex;
+#taskjs .flex {
   flex-direction: column;
-  justify-content: center;
+}
+#taskjs .box {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background-color: #a7501b;
 }
 #taskjs .box h2 {
-  margin-bottom: 10px;
+  margin: 15px 0;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 25px;
 }
 #taskjs .box input {
   border: 1px solid #000000;
-  border-radius: 5px;
-  margin-right: 5px;
+  border-radius: 30px;
+  margin: 0 10px;
 }
 #taskjs .box .btn {
   display: flex;
@@ -151,6 +158,8 @@ section {
   height: 40px;
   border: 1px solid #000000;
   background-color: #ffffff;
+  border-radius: 30px;
+  margin: 15px 0;
 }
 #taskjs .box .btn h5:hover {
   cursor: pointer;
