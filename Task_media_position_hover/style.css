@@ -127,4 +127,31 @@ section {
 #demo4 .bigbox .text2 {
   position: absolute;
   left: 200px;
+}
+
+#taskjs .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #a7501b;
+}
+#taskjs .box h2 {
+  margin-bottom: 10px;
+}
+#taskjs .box input {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+#taskjs .box .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 40px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+#taskjs .box .btn h5:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
